@@ -7,3 +7,6 @@
     <img src="https://img.shields.io/github/languages/code-size/HazeClient/Haze" alt="GitHub code size in bytes"/>
     <img src="https://tokei.rs/b1/github/HazeClient/Haze" alt="GitHub lines of code"/>
 </div>
+
+# Contributing
+- We will not be accepting contributions **yet** until our client leaves early-dev builds.
