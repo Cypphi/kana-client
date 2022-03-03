@@ -10,3 +10,9 @@
 
 # Contributing
 - We will not be accepting contributions **yet** until our client leaves early-dev builds.
+
+# Why "Haze"?
+_I decided to call the client "Haze" as it refers to my weed addiction and favorite type: Amnesia Haze._
+
+# Usage
+_We'll not **yet** be providing any guides on how to run Haze. This is due to the fact that it's in such an early-dev stage that some builds might not even work or have any features. If you know how to run gradle projects, good for you, don't expect too much yet... Ok?_
