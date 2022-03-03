@@ -10,6 +10,7 @@
 <div align="center">
     <img src="https://github.com/HazeClient/Haze/blob/main/src/main/resources/assets/haze/misc/haze_client_loggar!11!!11!1.png?raw=true" alt="wtf rat?!?!?!" width="100%"/>
 </div>
+<p align="center">Haze Clinet tucan loggar confirmed??1/1/1/?!?!?!!?</p>
 
 # Contributing
 - We will not be accepting contributions **yet** until our client leaves early-dev builds.
