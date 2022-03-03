@@ -6,7 +6,9 @@
     <a href="https://discord.gg/c3VxXhcmgv"><img src="https://img.shields.io/discord/920967969411051530?logo=discord" alt="Discord"/></a>
     <img src="https://img.shields.io/github/languages/code-size/HazeClient/Haze" alt="GitHub code size in bytes"/>
     <img src="https://tokei.rs/b1/github/HazeClient/Haze" alt="GitHub lines of code"/>
-    <img src="https://github.com/HazeClient/Haze/blob/main/src/main/resources/assets/haze/misc/haze_client_loggar!11!!11!1.png?raw=true" alt="wtf rat?!?!?!" width="20%"/>
+</div>
+<div align="center">
+    <img src="https://github.com/HazeClient/Haze/blob/main/src/main/resources/assets/haze/misc/haze_client_loggar!11!!11!1.png?raw=true" alt="wtf rat?!?!?!" width="100%"/>
 </div>
 
 # Contributing
