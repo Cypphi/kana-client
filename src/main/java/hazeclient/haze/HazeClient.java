@@ -17,6 +17,9 @@ public class HazeClient implements ModInitializer {
 
 	private static File hazeClientPath = new File("haze-client");
 
+	// Directory to let someone know how retarded they are (from what I've seen Haze will crash when you load it on a fabric server but it's still funny.)
+	private static File hazeClientNotMadeForServers = new File("this-is-a-client-side-mod-you-dumb-nigger");
+
 	@Override
 	public void onInitialize() {
 		LOG.info("Initializing " + name + " " + version + "_" + BUILDID + "...");
@@ -26,6 +29,7 @@ public class HazeClient implements ModInitializer {
 				hazeClientPath.mkdirs();
 			} else {
 				LOG.info("This is a client-side utility mod you dumb nigger.");
+				hazeClientNotMadeForServers.mkdirs();
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
