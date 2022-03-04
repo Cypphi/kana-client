@@ -12,8 +12,6 @@ import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-import java.io.InputStream;
-
 public class MainMenu extends Screen {
     String t;
 
