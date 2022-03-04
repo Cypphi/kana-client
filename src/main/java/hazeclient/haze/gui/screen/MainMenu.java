@@ -38,7 +38,7 @@ public class MainMenu extends Screen {
     @Override
     public void render(MatrixStack matrices, int mouseX, int mouseY, float delta) {
         RenderSystem.setShaderTexture(0, background);
-        drawTexture(matrices, mouseX / 30 - 25, mouseY / 30 - 25, 0, 0, 0, width - mouseX / 30 + 25, height - mouseY / 30 + 25, width + 30, height + 50);
+        drawTexture(matrices, mouseX / 15 - 100, mouseY / 15 - 100, 0, 0, 0, width - mouseX / 15 + 150, height - mouseY / 15 + 150, width + 200, height + 200);
         RenderSystem.setShaderTexture(0, logo);
         drawTexture(matrices, width / 2 - 75, height / 2 + 100, 0, 0, 150, 150, 150,150);
         RenderSystem.setShaderTexture(0, textlogo);
