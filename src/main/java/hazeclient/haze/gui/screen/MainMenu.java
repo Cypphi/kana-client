@@ -42,7 +42,7 @@ public class MainMenu extends Screen {
         RenderSystem.setShaderTexture(0, logo);
         drawTexture(matrices, width / 2 - 75, height / 2 + 100, 0, 0, 150, 150, 150,150);
         RenderSystem.setShaderTexture(0, textlogo);
-        drawTexture(matrices, width / 2 - 250, 100, 0, 0, 500, 100, 500,100);
+        drawTexture(matrices, width / 2 - 250, 70, 0, 0, 500, 100, 500,100);
         super.render(matrices, mouseX, mouseY, delta);
     }
 
