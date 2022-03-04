@@ -28,6 +28,7 @@ public class HazeClient implements ModInitializer {
 			if (FabricLoader.getInstance().getEnvironmentType() == EnvType.CLIENT) {
 				hazeClientPath.mkdirs();
 			} else {
+				// yap
 				LOG.info("This is a client-side utility mod you dumb nigger.");
 				hazeClientNotMadeForServers.mkdirs();
 			}
