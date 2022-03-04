@@ -10,6 +10,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public abstract class KeyboardMixin {
     @Inject(method = "onKey", at = @At("HEAD"), cancellable = true)
     public void onKey(long window, int key, int scancode, int action, int modifiers, CallbackInfo info) {
-        System.out.println("Successfully pressed key: " + key);
+
     }
 }
