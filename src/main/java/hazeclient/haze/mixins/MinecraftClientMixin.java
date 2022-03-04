@@ -12,7 +12,6 @@ public abstract class MinecraftClientMixin {
     @ModifyArg(method = "updateWindowTitle", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/util/Window;setTitle(Ljava/lang/String;)V"))
     private String setTitle(String s) {
         String customWindowTitle = HazeClient.name + " " + HazeClient.version + " b" + HazeClient.BUILDID;
-
         return customWindowTitle;
     }
 }
