@@ -32,6 +32,7 @@ public class HazeClient implements ModInitializer {
 	public static final MinecraftClient mc = MinecraftClient.getInstance();
 	public static final Logger LOG = LoggerFactory.getLogger(name);
 
+	public static boolean useKeys = true;
 	private static final File hazeClientPath = new File("haze-client");
 
 	@Override
