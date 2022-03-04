@@ -27,13 +27,16 @@ jobs:
         with:
           java-version: ${{ matrix.java }}
       - name: make gradle wrapper executable
-        if: ${{ runner.os != 'Windows' }}
         run: chmod +x ./gradlew
       - name: build
         run: ./gradlew build
-      - name: capture build artifacts
-        if: ${{ runner.os == 'Linux' && matrix.java == '17' }} # Only upload artifacts built from latest java on one OS
-        uses: actions/upload-artifact@v2
+      - name: Remove *-dev.jar
+        run: rm ./build/libs/*-dev.jar
+      - uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          name: Artifacts
-          path: build/libs/
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest-1.18"
+          prerelease: true
+          title: "Haze Client Latest Build"
+          files: |
+            ./build/libs/*.jar
