@@ -40,7 +40,7 @@ public class Module {
 
     protected void onEnable() {}
     protected void onDisable() {}
-    protected void onEvent(Event event) {}
+    public void onEvent(Event event) {}
 
     public Category getCategory() {
         return category;
@@ -58,6 +58,8 @@ public class Module {
         return keyBind;
     }
 
+    public void toggle() { setToggled(!isToggled()); }
+
     public boolean isToggled() {
         return toggled;
     }
@@ -72,6 +74,11 @@ public class Module {
 
     public void setToggled(boolean toggled) {
         this.toggled = toggled;
+        if(this.toggled) {
+            onEnable();
+        } else {
+            onDisable();
+        }
     }
 
     public void setVisible(boolean visible) {
