@@ -36,4 +36,12 @@ public class ModuleManager {
         return moduleslist;
     }
 
+    public void handleKeypress(int key) {
+        for(Module module : modules) {
+            if(module.getKeyBind() == key) {
+                module.toggle();
+            }
+        }
+    }
+
 }
