@@ -4,12 +4,12 @@ import hazeclient.haze.event.Event;
 
 public class Module {
 
-    protected final Category category;
-    protected final String name;
-    protected final String description;
-    protected int keyBind;
-    protected boolean toggled;
-    protected boolean visible;
+    private final Category category;
+    private final String name;
+    private final String description;
+    private int keyBind;
+    private boolean toggled;
+    private boolean visible;
 
     public Module(Category category, String name, String description, int keyBind, boolean toggled, boolean visible) {
         this.category = category;
@@ -40,7 +40,7 @@ public class Module {
 
     protected void onEnable() {}
     protected void onDisable() {}
-    protected void onEvent(Event event) {}
+    public void onEvent(Event event) {}
 
     public Category getCategory() {
         return category;
@@ -58,6 +58,8 @@ public class Module {
         return keyBind;
     }
 
+    public void toggle() { setToggled(!isToggled()); }
+
     public boolean isToggled() {
         return toggled;
     }
@@ -72,6 +74,11 @@ public class Module {
 
     public void setToggled(boolean toggled) {
         this.toggled = toggled;
+        if(this.toggled) {
+            onEnable();
+        } else {
+            onDisable();
+        }
     }
 
     public void setVisible(boolean visible) {

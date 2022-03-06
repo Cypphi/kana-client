@@ -6,7 +6,7 @@ import hazeclient.haze.features.module.Module;
 public class TestModule extends Module {
 
     public TestModule() {
-        super(Category.MOVEMENT, "TestModule", "Experimental Module");
+        super(Category.MOVEMENT, "TestModule", "Experimental Module", 0, true, true);
     }
 
 }
