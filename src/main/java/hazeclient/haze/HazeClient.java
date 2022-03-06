@@ -1,5 +1,6 @@
 package hazeclient.haze;
 
+import hazeclient.haze.features.module.ModuleManager;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
@@ -32,11 +33,17 @@ public class HazeClient implements ModInitializer {
 	public static final MinecraftClient mc = MinecraftClient.getInstance();
 	public static final Logger LOG = LoggerFactory.getLogger(name);
 
+	public static ModuleManager moduleManager;
+
+	public static boolean useKeys = true;
 	private static final File hazeClientPath = new File("haze-client");
 
 	@Override
 	public void onInitialize() {
 		LOG.info("Initializing " + name + " " + version + "_" + buildId + "...");
+
+		moduleManager = new ModuleManager();
+		new InternalEventHandler();
 
 		try {
 			if (FabricLoader.getInstance().getEnvironmentType() == EnvType.CLIENT) {
