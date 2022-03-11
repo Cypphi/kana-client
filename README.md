@@ -13,9 +13,7 @@
 <p align="center">Haze Clinet tucan loggar confirmed??1/1/1/?!?!?!!?</p>
 
 # Contributing
-We accept contributions, just make sure that:
-- Your code isn't complete garbage. By this we mean that your code follows the same syntax we use and that it's efficient, eg use switch cases instead of if else if elseif elseif elseif else (you get it).
-- Your contribution isn't useless, useless feature pull requests will be denied.
+We do not **yet** accept contributions until our client leaves the early-dev stage.
 
 # Why "Haze"?
 _I decided to call the client "Haze" as it refers to my weed addiction and favorite type of weed: Amnesia Haze._
