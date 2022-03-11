@@ -7,8 +7,7 @@
   ],
   "client": [
     "SplashTextResourceSupplierMixin",
-    "MinecraftClientMixin",
-    "KeyboardMixin"
+    "MinecraftClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1
