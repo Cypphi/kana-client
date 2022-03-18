@@ -1,4 +1,4 @@
-<h1 align="center">Haze Client</h1>
+<h1 align="center">[WIP] Haze Client</h1>
 
 <p align="center">Minecraft Utility Mod for the latest release of Minecraft developed by Cypphi.</p>
 
