@@ -26,7 +26,7 @@ public class SplashTextResourceSupplierMixin {
                 "§6Made with §4♥ §6by Cypphi!",
                 "§4May contain spaghetti!",
                 "§5I LOVE LEAN! ♥",
-                "§6It's uncanny how easy it is!",
+                "§6It's uncanny how easy it is.",
                 "§9♥ §6Stay strong Ukraine! §e♥"
         );
     }
