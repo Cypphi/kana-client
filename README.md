@@ -13,7 +13,7 @@
 <p align="center">Haze Clinet tucan loggar confirmed??1/1/1/?!?!?!!?</p>
 
 # Contributing
-We do not **yet** accept contributions until our client leaves the early-dev stage.
+We do not **yet** accept contributions until we have a proper client base which fits my needs.
 
 # Why "Haze"?
 _I decided to call the client "Haze" as it refers to my weed addiction and favorite type of weed: Amnesia Haze._
