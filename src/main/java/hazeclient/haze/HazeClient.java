@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 import java.io.File;
 
 public class HazeClient implements ModInitializer {
-	public static String name = "Haze Client", version = "0.0.1", buildId = "1", mcVersion = "1.18.2";
+	public static String name = "Haze", version = "0.0.1", buildId = "1", mcVersion = "1.18.2";
 	public static final MinecraftClient mc = MinecraftClient.getInstance();
 	public static final Logger LOG = LoggerFactory.getLogger(name);
 
