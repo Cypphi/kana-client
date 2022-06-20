@@ -6,9 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "SplashTextResourceSupplierMixin",
-    "MinecraftClientMixin",
-    "GameOptionsMixin"
+
   ],
   "injectors": {
     "defaultRequire": 1
