@@ -3,7 +3,7 @@
   "id": "haze",
   "version": "${version}",
 
-  "name": "Haze Client",
+  "name": "Resolute",
   "description": "Minecraft Utility Mod for the latest release of Minecraft developed by Cypphi.",
   "authors": [
     "Cypphi"
@@ -13,22 +13,22 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/haze/haze.png",
+  "icon": "assets/resolute/haze.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "hazeclient.haze.HazeClient"
+      "cypphi.resolute.ResoluteClient"
     ]
   },
   "mixins": [
-    "haze.mixins.json"
+    "resolute.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.13.3",
+    "fabricloader": ">=0.14.9",
     "fabric": "*",
-    "minecraft": "1.18.x",
+    "minecraft": "1.19.x",
     "java": ">=17"
   }
 }
