@@ -2,6 +2,8 @@ package cypphi.amiss.gui.screen;
 
 import cypphi.amiss.renderer.Render2d;
 import cypphi.amiss.renderer.font.FontRenderer;
+import net.minecraft.client.gui.CubeMapRenderer;
+import net.minecraft.client.gui.RotatingCubeMapRenderer;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.text.Text;
@@ -17,9 +19,9 @@ public class MainMenuScreen extends Screen {
 
     FontRenderer ANTON = FontRenderer.create("anton", 25, false, false, false);
 
-    private static final Identifier PANORAMA_OVERLAY = new Identifier("textures/gui/title/background/panorama_overlay.png");
+//    private static final Identifier PANORAMA_OVERLAY = new Identifier("textures/gui/title/background/panorama_overlay.png");
 
-    public static final CubeMapRenderer PANORAMA_CUBE_MAP = new CubeMapRenderer(new Identifier("textures/gui/title/background/panorama"));
+//    public static final CubeMapRenderer PANORAMA_CUBE_MAP = new CubeMapRenderer(new Identifier("textures/gui/title/background/panorama"));
 
     private final RotatingCubeMapRenderer backgroundRenderer = new RotatingCubeMapRenderer(PANORAMA_CUBE_MAP);
 

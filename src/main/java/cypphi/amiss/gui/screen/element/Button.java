@@ -1,11 +1,10 @@
-package cypphi.ammis.gui.screen.element.element;
+package cypphi.amiss.gui.screen.element;
 
+import cypphi.amiss.renderer.Render2d;
+import cypphi.amiss.renderer.font.FontRenderer;
 import net.minecraft.client.util.math.MatrixStack;
 
 import java.awt.*;
-
-import me.lto.amiss.renderer.Render2d;
-import me.lto.amiss.renderer.font.FontRenderer;
 
 public class Button {
 

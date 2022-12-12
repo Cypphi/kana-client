@@ -1,5 +1,6 @@
-package me.lto.amiss.gui.clickgui;
+package cypphi.amiss.gui.clickgui;
 
+import cypphi.amiss.renderer.Render2d;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.util.math.MatrixStack;
@@ -11,7 +12,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import me.lto.amiss.modules.ModuleCategory;
-import me.lto.amiss.renderer.Render2d;
 
 public class ClickGui extends Screen {
 
