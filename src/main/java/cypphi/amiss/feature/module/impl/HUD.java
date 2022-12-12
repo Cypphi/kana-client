@@ -2,11 +2,12 @@ package cypphi.amiss.feature.module.impl;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
+import cypphi.amiss.feature.module.Setting;
 import cypphi.amiss.feature.module.ModuleCategory;
 import cypphi.amiss.feature.module.ModuleManager;
 import cypphi.amiss.renderer.Render2d;
 import cypphi.amiss.renderer.font.FontRenderer;
-import me.lto.amiss.Setting;
+import cypphi.amiss.feature.module.Module;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
