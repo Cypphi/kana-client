@@ -1,4 +1,4 @@
-package me.lto.amiss.modules;
+package cypphi.lto.amiss.modules;
 
 import java.awt.*;
 
@@ -8,8 +8,7 @@ public enum ModuleCategory {
     MOVEMENT("Movement", new Color(31, 67, 157)),
     RENDER("Render", new Color(176, 170, 34)),
     WORLD("World", new Color(218, 123, 18)),
-    MISC("Misc", new Color(64, 29, 154)),
-    ;
+    MISC("Misc", new Color(64, 29, 154));
 
     private final String name;
     private final Color color;
