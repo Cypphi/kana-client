@@ -1,5 +1,6 @@
 package cypphi.amiss.gui.clickgui;
 
+import cypphi.amiss.feature.module.Module;
 import cypphi.amiss.feature.module.ModuleCategory;
 import cypphi.amiss.feature.module.ModuleManager;
 import cypphi.amiss.gui.clickgui.element.ModuleButton;
@@ -12,6 +13,7 @@ import org.lwjgl.opengl.GL11;
 
 import java.awt.*;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Frame {
 

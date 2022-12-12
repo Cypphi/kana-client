@@ -1,5 +1,6 @@
 package cypphi.amiss.gui.clickgui.element;
 
+import cypphi.amiss.feature.module.Module;
 import cypphi.amiss.renderer.Render2d;
 import cypphi.amiss.renderer.font.FontRenderer;
 import net.minecraft.client.util.math.MatrixStack;

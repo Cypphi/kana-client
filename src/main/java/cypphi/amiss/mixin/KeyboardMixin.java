@@ -1,5 +1,6 @@
 package cypphi.amiss.mixin;
 
+import cypphi.amiss.feature.module.Module;
 import cypphi.amiss.feature.module.ModuleManager;
 import net.minecraft.client.Keyboard;
 import net.minecraft.client.MinecraftClient;
