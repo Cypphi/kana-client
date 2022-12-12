@@ -3,6 +3,7 @@ package cypphi.amiss.feature.command.impl;
 import cypphi.amiss.AmissClient;
 import cypphi.amiss.feature.command.Command;
 import cypphi.amiss.feature.module.ModuleManager;
+import cypphi.amiss.feature.module.Module;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.text.Text;
 
