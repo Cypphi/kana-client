@@ -1,15 +1,12 @@
 package cypphi.amiss.mixin;
 
 
+import cypphi.amiss.feature.module.ModuleManager;
 import net.minecraft.client.network.ClientPlayerEntity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-
-import me.lto.amiss.modules.Module;
-import me.lto.amiss.modules.ModuleCategory;
-import me.lto.amiss.modules.ModuleManager;
 
 @Mixin(ClientPlayerEntity.class)
 public class ClientPlayerEntityMixin {

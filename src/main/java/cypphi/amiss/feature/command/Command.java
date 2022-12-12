@@ -1,4 +1,4 @@
-package me.lto.amiss.commands;
+package cypphi.amiss.feature.command;
 
 public class Command {
 

@@ -1,13 +1,12 @@
-package me.lto.amiss.modules;
+package cypphi.amiss.feature.module;
+
+import cypphi.amiss.feature.module.impl.ClickGUI;
+import cypphi.amiss.feature.module.impl.FullBright;
+import cypphi.amiss.feature.module.impl.HUD;
+import cypphi.amiss.feature.module.impl.Tracers;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import me.lto.amiss.commands.Command;
-import me.lto.amiss.modules.mods.ClickGUI;
-import me.lto.amiss.modules.mods.FullBright;
-import me.lto.amiss.modules.mods.HUD;
-import me.lto.amiss.modules.mods.Tracers;
 
 public class ModuleManager {
 

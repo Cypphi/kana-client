@@ -1,4 +1,4 @@
-package me.lto.amiss;
+package cypphi.amiss;
 
 public enum SettingType {
     COMBO,

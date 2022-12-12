@@ -1,16 +1,15 @@
-package me.lto.amiss.gui.clickgui;
+package cypphi.amiss.gui.clickgui;
 
+import cypphi.amiss.feature.module.ModuleCategory;
+import cypphi.amiss.feature.module.ModuleManager;
+import cypphi.amiss.renderer.Render2d;
+import cypphi.amiss.renderer.font.FontRenderer;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
 import org.lwjgl.opengl.GL11;
 
 import me.lto.amiss.gui.clickgui.element.ModuleButton;
-import me.lto.amiss.modules.Module;
-import me.lto.amiss.modules.ModuleCategory;
-import me.lto.amiss.modules.ModuleManager;
-import me.lto.amiss.renderer.Render2d;
-import me.lto.amiss.renderer.font.FontRenderer;
 
 import java.awt.*;
 import java.util.ArrayList;

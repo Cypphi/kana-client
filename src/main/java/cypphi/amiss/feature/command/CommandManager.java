@@ -1,11 +1,11 @@
-package me.lto.amiss.commands;
+package cypphi.amiss.feature.command;
+
+import cypphi.amiss.feature.command.impl.Say;
+import cypphi.amiss.feature.command.impl.Toggle;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
-import me.lto.amiss.commands.cmds.Say;
-import me.lto.amiss.commands.cmds.Toggle;
 
 public class CommandManager {
 

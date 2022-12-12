@@ -1,12 +1,11 @@
-package me.lto.amiss.modules.mods;
+package cypphi.amiss.feature.module.impl;
 
+import cypphi.amiss.feature.module.ModuleCategory;
+import cypphi.amiss.gui.clickgui.ClickGui;
 import net.minecraft.client.MinecraftClient;
 import org.lwjgl.glfw.GLFW;
 
 import me.lto.amiss.Setting;
-import me.lto.amiss.gui.clickgui.ClickGui;
-import me.lto.amiss.modules.Module;
-import me.lto.amiss.modules.ModuleCategory;
 
 public class ClickGUI extends Module {
 

@@ -1,6 +1,4 @@
-package me.lto.amiss.gui.clickgui;
-
-import net.minecraft.util.math.MathHelper;
+package cypphi.amiss.gui.clickgui;
 
 import java.util.List;
 

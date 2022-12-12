@@ -1,9 +1,7 @@
-package me.lto.amiss.commands.cmds;
+package cypphi.amiss.feature.command.impl;
 
-import me.lto.amiss.Amiss;
-import me.lto.amiss.commands.Command;
-import me.lto.amiss.modules.Module;
-import me.lto.amiss.modules.ModuleManager;
+import cypphi.amiss.feature.command.Command;
+import cypphi.amiss.feature.module.ModuleManager;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.text.Text;
 

@@ -1,14 +1,10 @@
-package me.lto.amiss.modules.mods;
+package cypphi.amiss.feature.module.impl;
 
-import me.lto.amiss.Setting;
-import me.lto.amiss.modules.Module;
-import me.lto.amiss.modules.ModuleCategory;
+import cypphi.amiss.feature.module.ModuleCategory;
 
 public class ESP extends Module {
 
     public ESP() {
         super("ESP", "Shows you where entities are", KEY_UNBOUND, ModuleCategory.RENDER, new Setting[]{});
     }
-
-
 }

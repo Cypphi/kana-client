@@ -1,19 +1,16 @@
-package me.lto.amiss.modules.mods;
+package cypphi.amiss.feature.module.impl;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
+import cypphi.amiss.feature.module.ModuleCategory;
+import cypphi.amiss.feature.module.ModuleManager;
+import cypphi.amiss.renderer.Render2d;
+import cypphi.amiss.renderer.font.FontRenderer;
 import me.lto.amiss.Setting;
-import me.lto.amiss.modules.Module;
-import me.lto.amiss.modules.ModuleCategory;
-import me.lto.amiss.modules.ModuleManager;
-import me.lto.amiss.renderer.Render2d;
-import me.lto.amiss.renderer.font.FontRenderer;
-import me.lto.amiss.renderer.font.IFont;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
 import org.lwjgl.glfw.GLFW;
-import org.lwjgl.opengl.GL11;
 
 import java.awt.*;
 import java.util.Comparator;

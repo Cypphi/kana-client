@@ -1,11 +1,10 @@
-package me.lto.amiss.commands.cmds;
+package cypphi.amiss.feature.command.impl;
 
-import net.minecraft.client.MinecraftClient;
+import cypphi.amiss.AmissClient;
+import cypphi.amiss.feature.command.Command;
 import net.minecraft.text.Text;
 
 import java.util.Arrays;
-
-import me.lto.amiss.commands.Command;
 
 public class Say extends Command {
 
@@ -15,7 +14,7 @@ public class Say extends Command {
 
     @Override
     public void execute(String[] args) {
-        assert MinecraftClient.getInstance().player != null;
-        MinecraftClient.getInstance().player.sendMessage(Text.of(Arrays.toString(args)), false);
+        assert AmissClient.mc.player != null;
+        AmissClient.mc.player.sendMessage(Text.of(Arrays.toString(args)), false);
     }
 }
