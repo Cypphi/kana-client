@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import me.lto.amiss.Amiss;
+import cypphi.amiss.AmissClient;
 
 @Mixin(MinecraftClient.class)
 public class MinecraftClientMixin {
@@ -23,7 +23,7 @@ public class MinecraftClientMixin {
 
 	@Inject(method = "updateWindowTitle", at = @At("HEAD"))
 	private void updateWindowTitle(CallbackInfo ci) {
-		this.window.setTitle(Amiss.name + " v" + Amiss.version);
+		this.window.setTitle(AmissClient.name + " b" + AmissClient.version);
 	}
 
 

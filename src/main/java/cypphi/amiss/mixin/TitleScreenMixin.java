@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import me.lto.amiss.gui.modernmm.ModernMM;
+import cypphi.amiss.gui.screen.MainMenuScreen;
 
 @Mixin(TitleScreen.class)
 public class TitleScreenMixin {
@@ -17,6 +17,6 @@ public class TitleScreenMixin {
     @Inject(method = "init()V", at = @At("HEAD"), cancellable = true)
     public void init(CallbackInfo ci) {
         ci.cancel();
-        MinecraftClient.getInstance().setScreen(new ModernMM());
+        MinecraftClient.getInstance().setScreen(new MainMenuScreen());
     }
 }
