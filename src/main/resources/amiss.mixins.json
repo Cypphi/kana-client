@@ -8,7 +8,9 @@
     "GameRendererMixin",
     "InGameHudMixin",
     "KeyboardMixin",
-    "TitleScreenMixin"
+    "TitleScreenMixin",
+    "ChatScreenMixin",
+    "ClientPlayerEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

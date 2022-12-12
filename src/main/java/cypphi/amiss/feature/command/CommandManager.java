@@ -11,7 +11,7 @@ public class CommandManager {
 
     public static List<Command> commands = new ArrayList<>();
 
-    public void addCommands() {
+    public static void addCommands() {
         commands.add(new Toggle());
         commands.add(new Say());
     }

@@ -9,7 +9,7 @@ public class ModuleManager {
 
     public static List<Module> modules = new ArrayList<>();
 
-    public void addModules() {
+    public static void addModules() {
         modules.add(new ClickGUI());
         modules.add(new HUD());
         modules.add(new FullBright());
