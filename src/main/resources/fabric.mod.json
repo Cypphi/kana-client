@@ -3,7 +3,7 @@
   "id": "amiss-client",
   "version": "${version}",
 
-  "name": "Amiss Client",
+  "name": "Astel Client",
   "description": "Highly customizable utility mod for the latest release of Minecraft.",
   "authors": [
     "Cypphi"
@@ -14,16 +14,16 @@
   },
 
   "license": "GPL-3.0",
-  "icon": "assets/amiss/icon.png",
+  "icon": "assets/astel/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "cypphi.amiss.AmissClient"
+      "cypphi.astel.AstelClient"
     ]
   },
   "mixins": [
-    "amiss.mixins.json"
+    "astel.mixins.json"
   ],
 
   "depends": {
