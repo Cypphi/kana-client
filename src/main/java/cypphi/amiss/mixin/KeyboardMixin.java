@@ -6,9 +6,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-
-import me.lto.amiss.modules.Module;
-import me.lto.amiss.modules.ModuleManager;
+import cypphi.ammis.modules.*;
 
 @Mixin(Keyboard.class)
 public class KeyboardMixin {
