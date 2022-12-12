@@ -1,15 +1,12 @@
 package cypphi.amiss.gui.screen;
 
+import cypphi.amiss.AmissClient;
 import cypphi.amiss.renderer.Render2d;
 import cypphi.amiss.renderer.font.FontRenderer;
-import net.minecraft.client.gui.CubeMapRenderer;
-import net.minecraft.client.gui.RotatingCubeMapRenderer;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-
-import java.awt.*;
 
 public class MainMenuScreen extends Screen {
 
@@ -23,9 +20,9 @@ public class MainMenuScreen extends Screen {
 
 //    public static final CubeMapRenderer PANORAMA_CUBE_MAP = new CubeMapRenderer(new Identifier("textures/gui/title/background/panorama"));
 
-    private final RotatingCubeMapRenderer backgroundRenderer = new RotatingCubeMapRenderer(PANORAMA_CUBE_MAP);
+//    private final RotatingCubeMapRenderer backgroundRenderer = new RotatingCubeMapRenderer(PANORAMA_CUBE_MAP);
 
-    public List<Button> buttons = new ArrayList<>();
+//    public List<Button> buttons = new ArrayList<>();
 
     public MainMenuScreen() {
         super(Text.of("a"));
@@ -48,8 +45,8 @@ public class MainMenuScreen extends Screen {
     public void render(MatrixStack matrices, int mouseX, int mouseY, float delta) {
         Render2d.drawTexture(matrices, background, 0, 0, width, height);
 
-        int width = MinecraftClient.getInstance().getWindow().getScaledWidth();
-        int height = MinecraftClient.getInstance().getWindow().getScaledHeight();
+        int width = AmissClient.mc.getWindow().getScaledWidth();
+        int height = AmissClient.mc.getWindow().getScaledHeight();
 
         int x = width/2;
         int y = height/2;

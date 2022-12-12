@@ -1,20 +1,16 @@
 package cypphi.amiss.mixin;
 
-import net.minecraft.client.MinecraftClient;
+import cypphi.amiss.feature.command.CommandHandler;
+import cypphi.amiss.feature.module.ModuleManager;
 import net.minecraft.client.gui.hud.InGameHud;
 import net.minecraft.client.util.math.MatrixStack;
-import net.minecraft.network.MessageType;
+import net.minecraft.network.message.MessageType;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-
-import me.lto.amiss.commands.CommandHandler;
-import me.lto.amiss.commands.CommandManager;
-import me.lto.amiss.modules.Module;
-import me.lto.amiss.modules.ModuleManager;
 
 import java.util.Arrays;
 import java.util.UUID;

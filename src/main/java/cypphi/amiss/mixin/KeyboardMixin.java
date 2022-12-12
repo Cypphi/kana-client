@@ -1,12 +1,12 @@
 package cypphi.amiss.mixin;
 
+import cypphi.amiss.feature.module.ModuleManager;
 import net.minecraft.client.Keyboard;
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import cypphi.ammis.modules.*;
 
 @Mixin(Keyboard.class)
 public class KeyboardMixin {

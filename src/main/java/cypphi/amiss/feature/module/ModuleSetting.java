@@ -1,4 +1,4 @@
-package me.lto.amiss.modules;
+package cypphi.amiss.feature.module;
 
 public class ModuleSetting {
 

@@ -1,5 +1,6 @@
-package me.lto.amiss.modules.mods;
+package cypphi.amiss.feature.module.impl;
 
+import cypphi.amiss.feature.module.ModuleCategory;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.Vec3d;
@@ -7,9 +8,6 @@ import net.minecraft.util.math.Vec3d;
 import java.awt.*;
 
 import me.lto.amiss.Setting;
-import me.lto.amiss.modules.Module;
-import me.lto.amiss.modules.ModuleCategory;
-import me.lto.amiss.renderer.Render2d;
 
 public class Tracers extends Module {
 

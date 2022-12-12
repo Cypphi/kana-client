@@ -1,4 +1,4 @@
-package cypphi.lto.amiss.modules;
+package cypphi.amiss.feature.module;
 
 import java.awt.*;
 

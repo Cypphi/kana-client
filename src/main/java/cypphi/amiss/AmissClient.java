@@ -2,8 +2,6 @@ package cypphi.amiss;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.client.MinecraftClient;
-import cypphi.amiss.modules.ModuleManager;
-import cypphi.amiss.commands.CommandManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,7 +16,7 @@ public class AmissClient implements ModInitializer {
 	}
 
 	void init() {
-		LOGGER.info("Initializing " + name + " b" + version + "...");
+		LOGGER.info("Initializing " + name + " " + version + "...");
 		ModuleManager.addModules();
 		CommandManager.addCommands();
 	}
