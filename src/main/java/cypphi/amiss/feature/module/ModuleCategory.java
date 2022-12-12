@@ -26,6 +26,4 @@ public enum ModuleCategory {
         return color;
     }
 
-    public class Setting {
-    }
 }
