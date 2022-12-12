@@ -11,6 +11,7 @@ import net.minecraft.util.Identifier;
 import java.awt.*;
 
 public class Render2d {
+
     public static void drawQuad(int x, int y, int width, int height, Color color, MatrixStack matrices) {
         RenderUtils.setupRender();
         // RenderSystem.setShader(GameRenderer::getPositionColorShader);
@@ -84,6 +85,12 @@ public class Render2d {
     public static void drawTexture(MatrixStack matrices, Identifier texture, int x, int y, int width, int height) {
         RenderSystem.setShader(GameRenderer::getPositionTexProgram);
         RenderSystem.setShaderTexture(0, texture);
+        RenderSystem.enableBlend();
+        RenderSystem.blendEquation(32774);
+        RenderSystem.blendFunc(770, 1);
+        RenderSystem.setShaderColor(1, 1, 1, 1);
         DrawableHelper.drawTexture(matrices, x, y, 0, 0, width, height, width, height);
+        RenderSystem.defaultBlendFunc();
+        RenderSystem.disableBlend();
     }
 }
