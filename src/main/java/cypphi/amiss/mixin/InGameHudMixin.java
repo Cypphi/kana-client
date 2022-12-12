@@ -7,6 +7,7 @@ import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.network.message.MessageType;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import cypphi.amiss.feature.module.Module;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -17,20 +18,6 @@ import java.util.UUID;
 
 @Mixin(InGameHud.class)
 public class InGameHudMixin {
-
-
-    @Inject(at = @At("HEAD"), method = "addChatMessage", cancellable = true)
-    public void handleMessage(MessageType type, Text message, UUID sender, CallbackInfo ci) {
-        if (message.asString().startsWith(".")) {
-            ci.cancel();
-            String t = message.asString().substring(".".length());
-            if (t.isEmpty()) return;
-            String[] ms = t.trim().split(" +");
-            String c = ms[0];
-            String[] args = Arrays.copyOfRange(ms, 1, ms.length);
-            new CommandHandler().executeCommand(c, args);
-        }
-    }
 
     @Inject(method = "render", at = @At("RETURN"))
     public void render(MatrixStack matrices, float tickDelta, CallbackInfo ci) {

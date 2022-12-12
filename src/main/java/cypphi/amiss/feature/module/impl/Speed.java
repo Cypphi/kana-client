@@ -1,7 +1,8 @@
 package cypphi.amiss.feature.module.impl;
 
+import cypphi.amiss.feature.module.Setting;
 import cypphi.amiss.feature.module.ModuleCategory;
-import me.lto.amiss.Setting;
+import cypphi.amiss.feature.module.Module;
 
 public class Speed extends Module {
 

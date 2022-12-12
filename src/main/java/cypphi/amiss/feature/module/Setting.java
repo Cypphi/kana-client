@@ -1,4 +1,4 @@
-package cypphi.amiss;
+package cypphi.amiss.feature.module;
 
 import java.util.ArrayList;
 

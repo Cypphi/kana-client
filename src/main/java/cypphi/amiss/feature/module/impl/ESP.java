@@ -1,6 +1,8 @@
 package cypphi.amiss.feature.module.impl;
 
+import cypphi.amiss.feature.module.Setting;
 import cypphi.amiss.feature.module.ModuleCategory;
+import cypphi.amiss.feature.module.Module;
 
 public class ESP extends Module {
 

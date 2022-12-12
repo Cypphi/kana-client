@@ -1,6 +1,11 @@
 package cypphi.amiss.feature.module.impl;
 
+import cypphi.amiss.feature.module.Setting;
+import cypphi.amiss.feature.module.ModuleCategory;
 import net.minecraft.client.MinecraftClient;
+import cypphi.amiss.feature.module.Module;
+
+import static cypphi.amiss.AmissClient.mc;
 
 public class FullBright extends Module {
 
@@ -14,17 +19,17 @@ public class FullBright extends Module {
 
     @Override
     public void onEnable() {
-        prevBrightness = MinecraftClient.getInstance().options.gamma;
-        MinecraftClient.getInstance().options.gamma = set;
+        prevBrightness = MinecraftClient.getInstance().options.getGamma().getValue();
+        mc.options.getGamma().setValue(set);
     }
 
     @Override
     public void onDisable() {
         if (prevBrightness == set) {
-            MinecraftClient.getInstance().options.gamma = 100;
+            mc.options.getGamma().setValue(100D);
         }
         else {
-            MinecraftClient.getInstance().options.gamma = set;
+            mc.options.getGamma().setValue(prevBrightness);
         }
     }
 }

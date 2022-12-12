@@ -1,6 +1,7 @@
 package cypphi.amiss.feature.module.impl;
 
-import cypphi.amiss.Setting;
+import cypphi.amiss.feature.module.Setting;
+import cypphi.amiss.feature.module.Module;
 import cypphi.amiss.feature.module.ModuleCategory;
 import cypphi.amiss.gui.clickgui.ClickGui;
 import net.minecraft.client.MinecraftClient;

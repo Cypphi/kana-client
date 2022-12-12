@@ -1,6 +1,9 @@
 package cypphi.amiss.feature.module.impl;
 
+import cypphi.amiss.feature.module.Setting;
+import cypphi.amiss.feature.module.Module;
 import cypphi.amiss.feature.module.ModuleCategory;
+import cypphi.amiss.renderer.Render2d;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.Vec3d;
