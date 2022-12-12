@@ -1,6 +1,6 @@
 package cypphi.amiss.feature.module;
 
-import me.lto.amiss.Setting;
+import cypphi.amiss.Setting;
 import net.minecraft.client.util.math.MatrixStack;
 
 public abstract class Module {

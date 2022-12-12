@@ -1,9 +1,6 @@
 package cypphi.amiss.feature.module;
 
-import cypphi.amiss.feature.module.impl.ClickGUI;
-import cypphi.amiss.feature.module.impl.FullBright;
-import cypphi.amiss.feature.module.impl.HUD;
-import cypphi.amiss.feature.module.impl.Tracers;
+import cypphi.amiss.feature.module.impl.*;
 
 import java.util.ArrayList;
 import java.util.List;
