@@ -7,8 +7,6 @@ import net.minecraft.util.math.Vec3d;
 
 import java.awt.*;
 
-import me.lto.amiss.Setting;
-
 public class Tracers extends Module {
 
     public Tracers() {

@@ -1,8 +1,8 @@
 package cypphi.amiss.gui.clickgui;
 
-import java.util.List;
+import cypphi.amiss.gui.clickgui.element.ModuleButton;
 
-import me.lto.amiss.gui.clickgui.element.ModuleButton;
+import java.util.List;
 
 public class Scroll {
 

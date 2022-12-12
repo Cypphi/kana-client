@@ -1,5 +1,6 @@
 package cypphi.amiss.feature.command.impl;
 
+import cypphi.amiss.AmissClient;
 import cypphi.amiss.feature.command.Command;
 import cypphi.amiss.feature.module.ModuleManager;
 import net.minecraft.client.MinecraftClient;
@@ -14,7 +15,7 @@ public class Toggle extends Command {
     @Override
     public void execute(String[] args) {
         if (args.length == 0) {
-            MinecraftClient.getInstance().player.sendMessage(Text.of(String.format("[%s] No module name!", Amiss.name)), false);
+            MinecraftClient.getInstance().player.sendMessage(Text.of(String.format("[%s] No module name!", AmissClient.name)), false);
             return;
         }
         Module module = ModuleManager.getModule(args[1]);
