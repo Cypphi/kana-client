@@ -2,7 +2,7 @@ package cypphi.amiss;
 
 import cypphi.amiss.feature.command.CommandManager;
 import cypphi.amiss.feature.module.ModuleManager;
-import net.fabricmc.api;
+import net.fabricmc.api.ModInitializer;
 import net.minecraft.client.MinecraftClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
