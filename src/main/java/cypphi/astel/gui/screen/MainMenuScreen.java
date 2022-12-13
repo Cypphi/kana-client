@@ -13,6 +13,7 @@ import cypphi.astel.AstelClient;
 import cypphi.astel.renderer.Render2d;
 import cypphi.astel.renderer.font.FontRenderer;
 import net.minecraft.client.gui.screen.Screen;
+import net.minecraft.client.gui.screen.world.SelectWorldScreen;
 import net.minecraft.client.render.GameRenderer;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.text.Text;
@@ -20,8 +21,11 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
 import net.minecraft.util.math.MathHelper;
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
+
+import static cypphi.astel.AstelClient.mc;
 
 public class MainMenuScreen extends Screen {
 
@@ -77,8 +81,8 @@ public class MainMenuScreen extends Screen {
         drawTexture(matrices, 0, 0, this.width, this.height, 0.0F, 0.0F, 16, 128, 16, 128);
 
 
-        int width = AstelClient.mc.getWindow().getScaledWidth();
-        int height = AstelClient.mc.getWindow().getScaledHeight();
+        int width = mc.getWindow().getScaledWidth();
+        int height = mc.getWindow().getScaledHeight();
 
         int x = width/2;
         int y = height/2;
@@ -86,8 +90,12 @@ public class MainMenuScreen extends Screen {
         int buttonheight = FontRenderer.createFromID("/assets/astel/font/abel.ttf",
                 24, false, false, false).getFontHeight()+4;
 
-        //buttons.add(new Button("Singleplayer", x-buttonwidth-1 , y-2, buttonwidth, buttonheight+2, new Color(182, 187, 190), new Color(0, 0, 0, 255), () -> {MinecraftClient.getInstance().setScreen(new SelectWorldScreen(this));}));
+        buttons.add(new Button("Singleplayer", x-buttonwidth-1 , y-2, buttonwidth, buttonheight+2, new Color(182, 187, 190, 255), new Color(0, 0, 0, 255), () -> {mc.setScreen(new SelectWorldScreen(this));}));
 
+        for (Button button : buttons) {
+            button.render(matrices);
+        }
+        
         super.render(matrices, mouseX, mouseY, delta);
     }
 }
