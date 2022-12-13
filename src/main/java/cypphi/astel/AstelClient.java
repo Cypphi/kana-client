@@ -20,7 +20,7 @@ public class AstelClient implements ModInitializer {
 	}
 
 	void init() {
-		LOGGER.info("Initializing " + name + " " + version + "...");
+		LOGGER.info("Initializing " + name + " b" + version + "...");
 		ModuleManager.addModules();
 		CommandManager.addCommands();
 	}
