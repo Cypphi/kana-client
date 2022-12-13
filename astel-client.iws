@@ -2,8 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="850d3dd2-0b1d-4831-8619-913563b6dbbb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/AmissClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/amiss/AmissClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/gui/screen/MainMenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/amiss/gui/screen/MainMenuScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/module/impl/ClickGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/module/impl/ESP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/renderer/font/IFont.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astel-client.iws" beforeDir="false" afterPath="$PROJECT_DIR$/astel-client.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/AmissClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/AstelClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/feature/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/command/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/feature/command/CommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/command/CommandHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/feature/command/CommandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/command/CommandManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/feature/command/impl/Say.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/command/impl/Say.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/feature/command/impl/Toggle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/feature/module/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/module/Module.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/feature/module/ModuleCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/module/ModuleCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/feature/module/ModuleManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/module/ModuleManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/feature/module/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/module/Setting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/feature/module/SettingType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/module/SettingType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/feature/module/impl/ClickGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/feature/module/impl/ESP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/feature/module/impl/FullBright.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/module/impl/FullBright.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/feature/module/impl/HUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/module/impl/HUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/feature/module/impl/Speed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/module/impl/Speed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/feature/module/impl/Tracers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/module/impl/Tracers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/gui/clickgui/ClickGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/gui/clickgui/ClickGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/gui/clickgui/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/gui/clickgui/Frame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/gui/clickgui/Scroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/gui/clickgui/Scroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/gui/clickgui/element/ModuleButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/gui/clickgui/element/ModuleButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/gui/screen/MainMenuScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/gui/screen/element/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/gui/screen/element/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/mixin/ChatScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/mixin/ChatScreenMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/mixin/ClientPlayerEntityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/mixin/ClientPlayerEntityMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/mixin/GameRendererMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/mixin/GameRendererMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/mixin/InGameHudMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/mixin/InGameHudMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/mixin/KeyboardMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/mixin/KeyboardMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/mixin/MinecraftClientMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/mixin/MinecraftClientMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/mixin/TitleScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/mixin/TitleScreenMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/renderer/Render2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/renderer/Render2d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/renderer/font/FontRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/renderer/font/FontRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/renderer/font/GlyphPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/renderer/font/GlyphPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/renderer/font/IFont.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/utils/RenderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/utils/RenderUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/amiss/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/command/impl/Toggle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/command/impl/Toggle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/astel/gui/screen/MainMenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/gui/screen/MainMenuScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/amiss.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/astel.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/amiss/font/abel.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/astel/font/abel.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/amiss/font/anton.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/astel/font/anton.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/amiss/font/mels.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/astel/font/mels.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/amiss/font/roboto.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/astel/font/roboto.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/amiss/font/verdana.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/astel/font/verdana.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/amiss/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/astel/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/amiss/textures/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/astel/textures/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
