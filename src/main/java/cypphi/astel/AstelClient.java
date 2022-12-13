@@ -1,7 +1,5 @@
 package cypphi.astel;
 
-import cypphi.amiss.feature.command.CommandManager;
-import cypphi.amiss.feature.module.ModuleManager;
 import cypphi.astel.feature.command.CommandManager;
 import cypphi.astel.feature.module.ModuleManager;
 import net.fabricmc.api.ModInitializer;
