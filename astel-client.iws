@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="850d3dd2-0b1d-4831-8619-913563b6dbbb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/astel-client.iws" beforeDir="false" afterPath="$PROJECT_DIR$/astel-client.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/command/impl/Toggle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/feature/command/impl/Toggle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/astel/AstelClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/AstelClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
