@@ -95,7 +95,7 @@ public class MainMenuScreen extends Screen {
         for (Button button : buttons) {
             button.render(matrices);
         }
-        
+
         super.render(matrices, mouseX, mouseY, delta);
     }
 }
