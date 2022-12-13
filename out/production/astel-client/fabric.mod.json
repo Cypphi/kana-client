@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "amiss-client",
+  "version": "${version}",
+
+  "name": "Amiss Client",
+  "description": "Highly customizable utility mod for the latest release of Minecraft.",
+  "authors": [
+    "Cypphi",
+    "Lto4"
+  ],
+  "contact": {
+    "discord": "https://discord.gg/w2Z5CNHWDr",
+    "sources": "https://github.com/Cypphi/amiss-client"
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/amiss/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cypphi.amiss.AmissClient"
+    ]
+  },
+  "mixins": [
+    "amiss.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  }
+}
