@@ -15,6 +15,7 @@ import java.util.HashMap;
 
 import javax.imageio.ImageIO;
 
+import cypphi.astel.utils.RenderUtils;
 import org.lwjgl.BufferUtils;
 
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -170,6 +171,7 @@ public class GlyphPage {
         float width = glyph.width;
         float height = glyph.height;
 
+        Tessellator tessellator = Tessellator.getInstance();
         BufferBuilder bufferBuilder = Tessellator.getInstance().getBuffer();
 
         RenderSystem.setShader(GameRenderer::getPositionColorTexProgram);
@@ -184,7 +186,10 @@ public class GlyphPage {
         bufferBuilder.vertex(stack.peek().getPositionMatrix(), x, y, 0).color(red, green, blue, alpha).texture(pageX, pageY)
                 .next();
 
-        BufferRenderer.draw(bufferBuilder.end());
+        //bufferBuilder.end();
+        //BufferRenderer.draw(bufferBuilder.end());
+
+        tessellator.draw();
 
         return width - 8;
     }
