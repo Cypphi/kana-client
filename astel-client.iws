@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="850d3dd2-0b1d-4831-8619-913563b6dbbb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/astel/AstelClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/AstelClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astel-client.iws" beforeDir="false" afterPath="$PROJECT_DIR$/astel-client.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/astel-client/amiss.mixins.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/astel-client/assets/amiss/font/abel.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/astel-client/assets/amiss/font/anton.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/astel-client/assets/amiss/font/mels.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/astel-client/assets/amiss/font/roboto.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/astel-client/assets/amiss/font/verdana.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/astel-client/assets/amiss/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/astel-client/assets/amiss/textures/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/astel-client/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/astel-client/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cypphi/astel/gui/screen/MainMenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cypphi/astel/gui/screen/MainMenuScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
