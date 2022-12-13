@@ -10,3 +10,8 @@
 
 ## Contact
 - Discord: https://discord.gg/w2Z5CNHWDr
+
+## Credits
+- FabricMC for their amazing modding toolchain.
+- 0x150 for [Renderer](https://github.com/0x3C50/Renderer)
+- sigmaclientwastaken for [Comfi](https://github.com/sigmaclientwastaken/comfi-client)
