@@ -1,14 +1,14 @@
-package cypphi.astel;
+package cypphi.kana;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.minecraft.client.MinecraftClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class AstelClient implements ClientModInitializer {
-    public static final Logger LOGGER = LoggerFactory.getLogger("Astel Client");
+public class KanaClient implements ClientModInitializer {
+    public static String name = "Kana Client", version = "1.0.0";
     public static final MinecraftClient mc = MinecraftClient.getInstance();
-    public static String name = "Astel Client", version = "1.0.0";
+    public static final Logger LOGGER = LoggerFactory.getLogger(name);
 
     @Override
     public void onInitializeClient() {

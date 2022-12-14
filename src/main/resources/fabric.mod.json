@@ -1,8 +1,8 @@
 {
     "schemaVersion": 1,
-    "id": "astel-client",
+    "id": "kana-client",
     "version": "${version}",
-    "name": "Astel Client",
+    "name": "Kana Client",
     "description": "Minecraft utility mod for the latest release of Minecraft.",
     "authors": [
         "Cypphi",
@@ -16,11 +16,11 @@
     "environment": "client",
     "entrypoints": {
         "main": [
-            "cypphi.astel.AstelClient"
+            "cypphi.kana.KanaClient"
         ]
     },
     "mixins": [
-        "astel.mixins.json"
+        "kana.mixins.json"
     ],
     "depends": {
         "fabricloader": ">=0.14.11",
