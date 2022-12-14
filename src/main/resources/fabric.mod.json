@@ -16,7 +16,7 @@
     "environment": "client",
     "entrypoints": {
         "main": [
-            "cypphi.kana.KanaClient"
+          "cypphi.kana.Kana"
         ]
     },
     "mixins": [
