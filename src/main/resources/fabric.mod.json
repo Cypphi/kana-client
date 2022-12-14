@@ -3,13 +3,15 @@
     "id": "astel-client",
     "version": "${version}",
     "name": "Astel Client",
-    "description": ".",
+    "description": "Minecraft utility mod for the latest release of Minecraft.",
     "authors": [
         "Cypphi",
-        "Lto4",
         "sigmaclientwastaken"
     ],
-    "contact": {},
+    "contact": {
+        "website": "Work in progress",
+        "discord": "https://discord.gg/tdEnkMEejh"
+    },
     "license": "GPL-3.0",
     "environment": "client",
     "entrypoints": {

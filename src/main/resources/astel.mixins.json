@@ -3,7 +3,9 @@
     "minVersion": "0.8",
     "package": "cypphi.astel.mixin",
     "compatibilityLevel": "JAVA_17",
-    "client": [],
+    "client": [
+
+    ],
     "injectors": {
         "defaultRequire": 1
     }
