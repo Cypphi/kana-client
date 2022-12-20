@@ -2,12 +2,12 @@ package cypphi.kana;
 
 import cypphi.kana.event.bus.bus.impl.EventBus;
 import cypphi.kana.event.types.Event;
-import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.api.ModInitializer;
 import net.minecraft.client.MinecraftClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Kana implements ClientModInitializer {
+public class Kana implements ModInitializer {
     private static final Kana INSTANCE = new Kana();
 
     public static String name = "Kana Client", version = "1.0.0";
@@ -32,7 +32,7 @@ public class Kana implements ClientModInitializer {
     }
 
     @Override
-    public void onInitializeClient() {
+    public void onInitialize() {
         LOGGER.info("Initializing " + name + " " + version);
     }
 }
