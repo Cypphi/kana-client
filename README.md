@@ -12,7 +12,7 @@
 </div>
 
 ## Contact
-- Discord: https://discord.gg/w2Z5CNHWDr
+- [Discord](https://discord.gg/Ry2VBVV8GJ)
 
 ## Credits
 - FabricMC for their amazing modding toolchain.
