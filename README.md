@@ -1,4 +1,4 @@
-<h1 align="center">[WIP] Kana</h1>
+<h1 align="center">[Discontinued lol] Kana</h1>
 
 <p align="center">Minecraft Utility Mod for the latest release of Minecraft.</p>
 <p align="center">Releasing in 2030 because I'm a lazy fuck!</p>
